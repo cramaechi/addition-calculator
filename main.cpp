@@ -1,4 +1,5 @@
-//Program that reads in two is of maximum length 20 and outputs the sum of the two.
+//Program that reads in two is of maximum length 20 and outputs the sum of the
+//two.
 #include <iostream>
 #include <cstdlib>
 #include <cmath>
@@ -41,11 +42,11 @@ const int INT_LENGTH = 20;
 
 int main()
 {
-	char i1[INT_LENGTH], i2[INT_LENGTH];
-	int i3[INT_LENGTH], i4[INT_LENGTH], s[INT_LENGTH], numUsed1, numUsed2, numUsed3;
+    char i1[INT_LENGTH], i2[INT_LENGTH];
+    int i3[INT_LENGTH], i4[INT_LENGTH], s[INT_LENGTH], numUsed1, numUsed2, numUsed3;
 
-	input(i1, i2, INT_LENGTH, numUsed1, numUsed2);
-	sum(i1, i2, i3, i4, s, numUsed1,  numUsed2, numUsed3);
+    input(i1, i2, INT_LENGTH, numUsed1, numUsed2);
+    sum(i1, i2, i3, i4, s, numUsed1,  numUsed2, numUsed3);
     output(s, numUsed3);
 
     return 0;
